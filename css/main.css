@@ -257,7 +257,7 @@ footer .social-icons i {
   display: flex;
   justify-content: center;  
   background: #283618;
-  min-height: 500px;
+  max-height: 500px;
   margin: 0;
 }
 
@@ -272,6 +272,8 @@ footer .social-icons i {
 
 .arrows {
   display: flex;
+  align-items: center;
+  margin: 0 8% 0 8%;
 }
 
 .fas {
@@ -290,7 +292,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #527158;
+  background-color: #606c38;
 }
 
 .form input {
@@ -314,7 +316,7 @@ input[type=button] {
   width: 100%;
   padding: 20px 0;
   margin-top: 20px;
-  background-color: #2a423a;
+  background-color: #283618;
   font-family: 'Poppins', Helvetica, Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1.125em;
