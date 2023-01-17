@@ -187,9 +187,8 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap; 
-  width: 60%;
-  font-size: 1.125em;
-  font-weight: 700;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 header nav ul {
@@ -435,6 +434,11 @@ input[type=button] {
 
 .formButtons {
   margin: 1% 0%;
+}
+
+.formButtons:hover {
+  background-color: #606c38;
+  color: white;
 }
 
 
@@ -768,7 +772,9 @@ footer h4 {
 
 /*-------Contact Page-------*/
 
-
+.formButtons {
+  padding: 1.5%;
+}
 
 
 
