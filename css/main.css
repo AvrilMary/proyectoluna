@@ -315,7 +315,7 @@ aside .form {
 
 input[type=text] {
   box-sizing: border-box;
-  width: 100%;
+  width: 90%;
   color: #040e0a;
   font-style: italic;
   padding: 1em;
@@ -428,8 +428,18 @@ input[type=button] {
    Contact Page
    ========================================================================== */
 
-.contact {
- margin: 0 5%; 
+#contact .content-wrapper {
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+.formButtons {
+  margin: 1% 0%;
+}
+
+
+.sendEmail {
+  margin-top: 2%;
 }
 
 
@@ -756,57 +766,14 @@ footer h4 {
 }
 
 
-/*-------Contact content styles Aboutpage-------*/
-
-.contact-section .content-wrapper h2 {
-  width: 80%;
-}
-
-.contact-content {
-  display:flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.general-information, .contact-support {
-  display:flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-flow: row wrap;
-}
+/*-------Contact Page-------*/
 
 
-/*-------FAQ content styles faqpage-------*/
 
-.faq .content-wrapper {
-  justify-content: space-between;
-  padding: 25px 0;
-}
 
-.faq-content {
-  display:flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-flow: row wrap;
-}
 
-.faq-question {
-  display:flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 45%;
-  flex-flow: row wrap;
-}
 
-.faq h2 {
-  width: 100%;
-}
 
-.faq h4,
-  .faq p {
-      font-size: .875em;
-      line-height: 1.125;
-  }
 
 }
 @media only screen and (min-width: 1200px) {
