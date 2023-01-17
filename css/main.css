@@ -96,7 +96,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  color: #e2e3ed;
+  background: #fefae0
 }
 
 
@@ -210,14 +210,18 @@ header nav ul {
 /*--------Footer styles -------*/
 
 footer {
-  flex-direction: column;
+  background: #fefae0;
+  width: 100%;
 }
 
+
 footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
+
 
 footer .social-icons {
   display:flex;
@@ -235,16 +239,11 @@ footer .contact p {
   margin-bottom: 35px;
 }
 
-footer .copyright p{
-  margin: 15px 0;
-  font-weight:normal;
-}
-
 footer .social-icons i {
   border-radius: 30px;
   width: 2.25em;
   height: 2.25em;
-  background:#527158;
+  background: #bc6c25;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -273,7 +272,17 @@ footer .social-icons i {
 .arrows {
   display: flex;
   align-items: center;
-  margin: 0 8% 0 8%;
+  margin: 0 10% 0 10%;
+}
+
+#left-arrow {
+  margin-left: 15%;
+  margin-right: 3%;
+}
+
+#right-arrow {
+  margin-right: 15%;
+  margin-left: 3%;
 }
 
 .fas {
@@ -299,8 +308,9 @@ aside {
   margin: 5px 0 5px 0;
 }
 
+
 aside .form {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 input[type=text] {
@@ -370,7 +380,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: #2a423a;
+  background-color: #606c38;
 }
 
 .reviews h2 {
@@ -414,39 +424,15 @@ input[type=button] {
 }
 
 
-
-
 /* ==========================================================================
-   FAQ Page
+   Contact Page
    ========================================================================== */
 
-.faq {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  background-color: #527158;
+.contact {
+ margin: 0 5%; 
 }
 
-.faq .content-wrapper {
-  margin: 50px 0 0 0;
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap
-}
 
-.faq-content p {
-  margin-bottom: 40px;
-}
-
-.faq h2 {
-  line-height: 1;
-  margin-bottom: 40px;
-}
-
-.faq-content h4 {
-  line-height: 1.333;
-}
 
 
 /* ==========================================================================
@@ -575,6 +561,21 @@ input[type=button] {
     font-size: 0.875em,
   }
 
+  .arrows {
+    font-size: 2em;
+  }
+
+  .form-description p {
+    font-size: 1.2em;
+  }
+
+  .form {
+    font-size: 1.2em;
+  };
+  
+
+  /*--------Need to change arrows (make bigger, margin), footer -------*/
+
   
     /*--------Base styles -------*/
 
@@ -644,11 +645,16 @@ footer .footer-content {
   padding: 15px 0;
 }
 
-footer .copyright {
-  width: 100%;
-  margin-bottom: 10px;
-  justify-content: center;
-  display: flex;
+footer .content-wrapper {
+  margin-top: 2%;
+}
+
+.contact {
+  margin-right: 10%;
+}
+
+.social {
+  margin-left: 10%;
 }
 
 footer .social-icons i {
@@ -673,7 +679,7 @@ footer h4 {
 
   aside .content-wrapper .form-description , 
   aside .content-wrapper .form {
-  width: 40%;
+  width: 45%;
   margin: 0;
 }
 

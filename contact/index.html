@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Unplugged Retreat | About</title>
+  <title>Precicle | Contacto</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,8 +15,8 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:500,700" rel="stylesheet">
 
-  <link rel="manifest" href="../site.webmanifest">
-  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <!-- Links to CSS style sheets -->
@@ -35,6 +35,9 @@
   <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>
+  <script src="../js/jquery.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript">var submitted = false;</script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -46,104 +49,94 @@
   <header>
     <div class="content-wrapper">
       <figure>
-        <a href="../index.html">
-          <img src= "../img/unpluggedlogo.png" alt="unplugged logo">
+        <a href="index.html">
+          <img class= "logo" src="../img/precicleLogo.png" alt="precicle logo">
         </a>
       </figure>
-      <div class="header-divider"></div>
-      <nav>
-        <ul>
-          <li><a href="../faq/index.html">FAQ</a></li>
-          <li><a href="index.html">About</a></li>
-        </ul>
-      </nav>
+      
+        
+          <div class="menu-bar">
+            <i class="fas fa-bars"></i>
+          </div>
+          <nav>
+            <ul class="nav-list hide">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about/index.html">About</a></li>
+              <li><a href="../retreats/index.html">Retreats</a></li>
+              <li><a href="../blog/index.html">Blog</a></li>
+              <li><a href="index.html">Contact</a></li>
+            </ul>
+          </nav>
     </div>
   </header>
 
-  <!--Main content begins here-->
   <main>
-    <section class="mission">
+
+    <section id="contact">
       <div class="content-wrapper">
-        <div class="mission-content">
-          <h2>Our Mission - we want to make you the team you always wanted to be.</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis
-          </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis
+        <div class="form-description">
+          <h3><br>Contact</h3>
+          <h2 class="subtitles">Get In Touch</h2>
+          <p class="contactDescription">Want to build something awesome or just drop a line? I'd love
+            to hear from you!
           </p>
         </div>
-      </div>  <!--Mission content wrapper ends-->
+        <div class="form">
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+            onload="if(submitted) {window.location='index.html';}"></iframe>
+          <form class="contact-form"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSf8t3-nk_RyXtXI93XaNWsdzIyhZDJVGj1PUi2zWkbhcGgoVg/formResponse"
+            method="post" target="hidden_iframe" onsubmit="submitted=true;">
+            <input class="formButtons" type="text" name="entry.2005620554" placeholder="Name*" required>
+            <input class="formButtons" type="text" name="entry.1045781291" placeholder="Email address*" required>
+            <input class="formButtons" id="message" type="text" name="entry.1166974658" placeholder="Message*">
+            <button class="formButtons sendEmail" type="submit">Send Email</button>
+          </form>
+          <br>
+        </div>
+      </div>
     </section>
 
-<!--Beginning of the contact section.-->
-
-    <section class="map">
-      <div class="content-wrapper">
-        <figure>
-          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2936.9019262540814!2d-88.42244978472695!3d42.59982427917146!2m3!1f0!2f0!3f0!3m2!1i1024!           2i768!4f13.1!3m3!1m2!1s0x88058beaba2a015f%3A0x4b28e3671bb3e0e9!2s333%20Main%20St%2C%20Lake%20Geneva%2C%20WI%2053147%2C%20USA!5e0!3m2!1sen!2smx!4v164329780           0813!5m2!1sen!2smx' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy'></iframe></div>
-        </figure>
-     
-      </div> <!--map content wrapper ends-->
-    </section>
-
-    <section class="contact-section">
-      <div class="content-wrapper">
-        <h2>Contact us, because you all need this.</h2>
-        <address class="contact-content">
-    
-          <div class="general-information">
-              <h4>General Information</h4>
-              <p>333 Main St, Lake Geneva, WI 53147 <br>555-555-5555<br>hello@unplugged.com</p>
-          </div>
-
-          <div class="contact-support">
-              <h4>Chat with a Facilitator</h4>
-              <p>555-555-5555 <br>facilitator@unplugged.com</p>
-          </div>
-        </address>
-      </div> <!--Contact section content wrapper ends-->
-    </section>
   </main>
-  <!--Main content ends here-->
 
   <footer>
     <div class="content-wrapper">
-      <div class ="footer-content">
+      <div class="footer-content">
         <div class="contact">
           <h4>Contact</h4>
           <address>
             <p>
-              555-555-5555<br>
-              hello@unplugged.com
+              2281-71-75-01<br>
+              turvey.am@gmail.com
             </p>
           </address>
         </div>
-        
-        <div class ="social">
+        <div class="social">
           <h4>Social</h4>
           <div class="social-icons">
             <p>
               <a href="https://www.facebook.com/Skillcrush/" target="_blank">
-              <i class= "fab fa-facebook-f"></i>
+                <i class="fab fa-facebook-f"></i>
               </a>
             </p>
             <p>
               <a href="https://twitter.com/Skillcrush" target="_blank">
-              <i class= "fab fa-twitter"></i>
+                <i class="fab fa-twitter"></i>
               </a>
             </p>
             <p>
               <a href="https://www.instagram.com/skillcrush/" target="_blank">
-              <i class= "fab fa-instagram"></i>
+                <i class="fab fa-instagram"></i>
               </a>
             </p>
           </div>
+          <!--Social icon div ends-->
         </div>
+        <!--Social div ends-->
       </div>
+      <!--Footer content div ends-->
     </div>
-
-    <div class="copyright">
-      <p>Copyright 2022 | Unplugged</p>
-    </div>
+    <!--Content wrapper div ends-->
   </footer>
 
 </body>
