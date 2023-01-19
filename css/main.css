@@ -195,7 +195,7 @@ header nav ul {
   display: flex;
   justify-content:space-around;
   flex-flow: row wrap;
-  width: 50%;
+  width: 10%;
   padding: 0;
 }
 
@@ -344,6 +344,7 @@ input[type=button] {
   flex-flow: row wrap;
   background: url('../img/features-background-image.jpg') center no-repeat #333;
   background-size: cover;
+  color: white;
 }
 
 .features h2 {
@@ -436,7 +437,7 @@ input[type=button] {
   margin: 1% 0%;
 }
 
-.formButtons:hover {
+.sendEmail:hover {
   background-color: #606c38;
   color: white;
 }
@@ -614,16 +615,6 @@ header figure {
 }
 
 
-header nav {
-  width: 80%;
-  display: flex;
-  flex: row;
-}
-
-header nav ul {
-  justify-content: space-between;
-}
-
 /*---------- Nav bar --------- */
 
 .menu-bar {
@@ -632,6 +623,9 @@ header nav ul {
 
 header nav {
   width: 100%;
+  display: flex;
+  flex: row;
+  font-weight: 700;
 }
 
 
@@ -641,6 +635,8 @@ header nav {
 
 header nav ul {
   justify-content: space-between;
+  font-size: 1.75em;
+  width: 90%
 }
 
 .fa-bars {

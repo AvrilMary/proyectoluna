@@ -17,11 +17,14 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <!-- Place favicon.icon in the root directory -->
 
-  <!-- Links to CSS style sheets -->
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/main.js" defer></script>
+  <script src="../js/jquery.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript">var submitted = false;</script>
 
   <!-- Icon Fonts -->
   <script src="https://kit.fontawesome.com/9fe64773eb.js" crossorigin="anonymous"></script>
@@ -33,11 +36,8 @@
 
   <!-- Add your site or application content here -->
   <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="../js/plugins.js"></script>
-  <script src="../js/main.js"></script>
-  <script src="../js/jquery.js" defer></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script type="text/javascript">var submitted = false;</script>
+   <script src="../js/plugins.js"></script>
+   <script src="../js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -54,19 +54,23 @@
         </a>
       </figure>
       
-        
-          <div class="menu-bar">
-            <i class="fas fa-bars"></i>
-          </div>
-          <nav>
-            <ul class="nav-list hide">
-              <li><a href="../index.html">Home</a></li>
-              <li><a href="../about/index.html">About</a></li>
-              <li><a href="index.html">Retreats</a></li>
-              <li><a href="../blog/index.html">Blog</a></li>
-              <li><a href="../contact/index.html">Contact</a></li>
-            </ul>
-          </nav>
+      <div class="menu-bar">
+        <div class="hamburgerMenu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="exitMenu hide">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <nav>
+        <ul class="nav-list hide">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about/index.html">About</a></li>
+          <li><a href="index.html">Retreats</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
+          <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
