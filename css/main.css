@@ -107,7 +107,6 @@ ul, ol {
 a {
   color: #e2e3ed;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 h1 {
@@ -133,6 +132,10 @@ h3, h4 {
 p {
   font-size: 0.875em;
   line-height: 1.285;
+}
+
+nav {
+  font-family: 'Poppins', sans-serif;
 }
 
 address {
